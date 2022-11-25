@@ -35,10 +35,10 @@ class SecondContactsTableViewController: UITableViewController {
         switch indexPath.row {
         case 0:
             cell.textLabel?.text = person.phone
-            cell.imageView?.image = UIImage(systemName: "phone")
+            cell.imageView?.image = UIImage(systemName: Contactcs.phone.rawValue)
         default:
             cell.textLabel?.text = person.email
-            cell.imageView?.image = UIImage(systemName: "tray")
+            cell.imageView?.image = UIImage(systemName: Contactcs.email.rawValue)
         }
         return cell
     }
