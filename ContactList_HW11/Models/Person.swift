@@ -17,14 +17,14 @@ struct Person {
 }
 
 extension Person {
-    static func getPerson() -> [Person] {
+    static func getContactList() -> [Person] {
         var names = DataStore.shared.names
         var surnames = DataStore.shared.surnames
         var phones = DataStore.shared.phones
         var emails = DataStore.shared.emails
         
         var persons: [Person] = []
-        for _ in 1...names.count {
+        for _ in 0..<names.count {
             var nameValue = ""
             var surnameValue = ""
             var phoneValue = ""
@@ -54,6 +54,11 @@ extension Person {
         }
         return persons
     }
+}
+
+enum Contactcs: String {
+    case phone = "phone"
+    case email = "tray"
 }
 
 

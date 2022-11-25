@@ -44,7 +44,9 @@
                         </connections>
                     </tableView>
                     <tabBarItem key="tabBarItem" title="1st Contacts" image="person.circle" catalog="system" id="Hhb-JG-ouW"/>
-                    <navigationItem key="navigationItem" title="Persons List" id="gCS-kT-xw0"/>
+                    <navigationItem key="navigationItem" title="Persons List" id="gCS-kT-xw0">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="gqf-RV-pjO"/>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zne-My-NNM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -84,7 +86,9 @@
                             <constraint firstItem="aWI-Co-ZRv" firstAttribute="leading" secondItem="cui-tE-RjG" secondAttribute="leading" constant="16" id="aYo-bh-Afx"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="KKc-gi-bJY"/>
+                    <navigationItem key="navigationItem" id="KKc-gi-bJY">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="Hyk-7c-ndp"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="emailLabel" destination="RAY-eS-F6o" id="ZSy-gF-hPh"/>
                         <outlet property="phoneLabel" destination="TkR-Du-C96" id="QVS-xC-hae"/>
@@ -139,7 +143,9 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="yUq-Ip-xMB" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Contacts" image="person.circle" catalog="system" id="vns-SN-6P7"/>
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" id="8Pm-kA-g0r"/>
+                    <navigationItem key="navigationItem" id="8Pm-kA-g0r">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="XC2-8B-i6r"/>
+                    </navigationItem>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="h7h-yX-fLq">
                         <rect key="frame" x="0.0" y="59" width="393" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -156,9 +162,11 @@
         <!--Persons List-->
         <scene sceneID="1Vb-Hj-rs1">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="6fc-Bn-ek8" sceneMemberID="viewController">
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="6fc-Bn-ek8" customClass="TabBarSettingViewController" customModule="ContactList_HW11" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" title="Persons List" id="lvc-JT-ooI"/>
+                    <navigationItem key="navigationItem" title="Persons List" id="lvc-JT-ooI">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="DPD-5x-9as"/>
+                    </navigationItem>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="c6D-fc-558">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F0873D629307E9200BF6CD0 /* TabBarSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0873D529307E9200BF6CD0 /* TabBarSettingViewController.swift */; };
 		5FE041F0292D4641005642B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE041EF292D4641005642B1 /* AppDelegate.swift */; };
 		5FE041F2292D4641005642B1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE041F1292D4641005642B1 /* SceneDelegate.swift */; };
 		5FE041F7292D4641005642B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FE041F5292D4641005642B1 /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5F0873D529307E9200BF6CD0 /* TabBarSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarSettingViewController.swift; sourceTree = "<group>"; };
 		5FE041EC292D4641005642B1 /* ContactList_HW11.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactList_HW11.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FE041EF292D4641005642B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5FE041F1292D4641005642B1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 				5FE0420A292D5079005642B1 /* FirstContactsTableViewController.swift */,
 				5FE0420E292D5146005642B1 /* FirstContactsViewController.swift */,
 				5FE0420C292D50C2005642B1 /* SecondContactsTableViewController.swift */,
+				5F0873D529307E9200BF6CD0 /* TabBarSettingViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -202,6 +205,7 @@
 				5FE04214292DD6A9005642B1 /* DataStore.swift in Sources */,
 				5FE04209292D4890005642B1 /* Person.swift in Sources */,
 				5FE041F0292D4641005642B1 /* AppDelegate.swift in Sources */,
+				5F0873D629307E9200BF6CD0 /* TabBarSettingViewController.swift in Sources */,
 				5FE041F2292D4641005642B1 /* SceneDelegate.swift in Sources */,
 				5FE0420B292D5079005642B1 /* FirstContactsTableViewController.swift in Sources */,
 				5FE0420D292D50C2005642B1 /* SecondContactsTableViewController.swift in Sources */,
